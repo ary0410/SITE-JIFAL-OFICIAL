@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Variáveis de cores */
+
 :root {
     --primary-color: #8C1F28;
     --primary-dark: #6b1820; 
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--secondary-color);
 }
 
-/* Cabeçalho */
+
 header {
     background-color: var(--primary-color);
     color: white;
@@ -62,11 +62,11 @@ header {
     height: 130px;
 }
 
-/* Menu de navegação */
+
 nav ul {
     list-style: none;
     display: flex;
-    gap: 2.4rem; /* ligeiramente mais espaçado entre os links */
+    gap: 2.4rem; 
     margin: 0;
     padding: 0;
 }
@@ -76,8 +76,8 @@ nav a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 650;
-    font-size: 1.1rem; /* aumento sutil no tamanho da fonte */
-    padding: 0.5rem 0.5rem; /* leve aumento no espaço interno */
+    font-size: 1.1rem; 
+    padding: 0.5rem 0.5rem; 
     position: relative;
     transition: all 0.3s ease;
 }
@@ -102,7 +102,7 @@ nav a:hover::after {
 }
 
 
-/* Banner principal */
+
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('ifal.png');
     background-size: cover;
@@ -153,7 +153,7 @@ nav a:hover::after {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* Seções gerais */
+
 section {
     padding: 5rem 2rem;
 }
@@ -183,7 +183,7 @@ section {
     border-radius: 3px;
 }
 
-/* Sobre o evento */
+
 .about {
     background-color: white;
 }
@@ -210,7 +210,7 @@ section {
     color: var(--primary-color);
 }
 
-/* Destaques */
+
 .highlights {
     background-color: var(--light-gray);
 }
@@ -256,7 +256,7 @@ section {
     line-height: 1.7;
 }
 
-/* Contagem regressiva */
+
 .countdown {
     background: linear-gradient(135deg, var(--primary-color) 0%, #d92638 100%);
     color: white;
@@ -300,7 +300,6 @@ section {
     letter-spacing: 1px;
 }
 
-/* Chamada para modalidades */
 .cta {
     background-color: white;
     text-align: center;
@@ -329,7 +328,6 @@ section {
     background-color: #23272b;
 }
 
-/* Rodapé */
 footer {
     background: linear-gradient(to bottom, var(--secondary-color), #1a1e21);
     color: white;
@@ -425,7 +423,6 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Responsividade */
 @media (max-width: 992px) {
     .about-content {
         margin: 0 auto;
